@@ -1,0 +1,9 @@
+
+
+
+
+
+A success message, when you find a correct word.
+Error messages, such as when you enter a word that doesn't contain the center letter, or a word with too few letters (less than 4).
+Pangrams (found in the data) which add an extra 7 points to your score when found.
+Store state in local storage every time a new correct word is found, and retrieve state from local storage on the first run of the page (see: https://developer.mozilla.org/en-US/docs/Web/API/Window/localStorage)
